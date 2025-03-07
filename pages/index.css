@@ -221,6 +221,12 @@ iframe {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  background-color: #1878dc;
+}
+
+.form__button:hover {
+  background-color: #3f96f3;
+  transition: 0.4s;
 }
 
 .form__checkbox {
@@ -233,4 +239,8 @@ iframe {
   display: flex;
   gap: 12px;
   justify-content: center;
+}
+
+::placeholder {
+  color: #838383;
 }
