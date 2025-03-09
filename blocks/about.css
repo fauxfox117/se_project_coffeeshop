@@ -1,19 +1,38 @@
 .about {
+  display: flex;
+  justify-content: space-between;
   background-color: #0a2850;
   color: #fff;
-  padding: 119px 173px;
+  padding: 119px 80px 173px;
 }
 
 .about__title {
-  margin: 0;
+  margin: -19px 0;
   max-width: 251px;
-  display: flex;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
 }
 
 .about__content {
   max-width: 660px;
   display: flex;
+  flex-direction: column;
+  margin: 0;
+  gap: 20px;
 }
 
 .about__paragraph {
+  margin: 0;
+  font-family: "Noto Serif", Times, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.about__circle {
+  position: absolute;
 }
