@@ -32,9 +32,11 @@
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
+  transition: color 0.3s ease, opacity 0.3s ease;
 }
 
 .nav__link:hover {
   color: #3f96f3;
   cursor: pointer;
+  opacity: 50%;
 }
