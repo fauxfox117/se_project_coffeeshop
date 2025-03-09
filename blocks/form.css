@@ -50,7 +50,6 @@
 
 .form__button:hover {
   background-color: #3f96f3;
-  transition: 0.4s;
 }
 
 .form__checkbox {
