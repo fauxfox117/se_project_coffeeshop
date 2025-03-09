@@ -1,13 +1,18 @@
 .about {
   background-color: #0a2850;
+  color: #fff;
   padding: 119px 173px;
 }
 
 .about__title {
+  margin: 0;
+  max-width: 251px;
+  display: flex;
 }
 
 .about__content {
   max-width: 660px;
+  display: flex;
 }
 
 .about__paragraph {
